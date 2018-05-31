@@ -1,0 +1,71 @@
+body {
+ background: #fff url(images/fabric_plaid.png) repeat left top;
+ min-height: 100%;
+ color: #444444;
+}
+
+
+#portBody h2, #portBody h3, .artifactWrap h2, .folderContentView h2, .portfolioArtifactTable th {
+ color: #5a6769;
+
+}
+
+#portBody {
+ background-color: #fcfcfc;
+ border: 1px solid #c2c2c2;
+ border-top: none;
+ border-bottom: none;
+}
+
+#portNav {
+ border: 1px solid #c2c2c2;
+}
+
+#portNav ul li a {
+ color: #187073;
+}
+
+#portNav ul li a:hover {
+ background-color: #e4e4e4;
+ color: #0d7275;
+}
+
+#portNav ul li.extras a {
+
+}
+
+#portContainer {
+
+}
+
+#portText {
+
+}
+
+#portHeader, #portFooter {
+  background: #7E8F91;
+  border: 1px solid #c2c2c2;
+  color: #FFFFFF;
+}
+
+/* Artifact Styling */
+
+.artifactWrap, .folderContentView {
+ background-color: #fcfcfc;
+ border: 1px solid #c2c2c2;
+}
+
+.artifactWrap .portfolioArtifactTable .selectedCell {
+  background:#D1EAEF url(images/button_ok_ia.png) no-repeat 12px 12px;
+}
+
+.autoClickOnArtifactPreview {
+ background-color: #e4e4e4;
+ color: #187073;
+ border: 1px solid #d0d0d0;
+}
+
+.autoClickOnArtifactPreview:hover, .autoClickOnArtifactPreview:active {
+ background-color: #d0d0d0;
+ color: #084547;
+}
